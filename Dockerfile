@@ -18,4 +18,6 @@ RUN npm ci && npm run build
 FROM caddy:2.10.0-alpine
 
 COPY --from=build /app/dist /usr/share/caddy
+COPY Caddyfile /etc/caddy/Caddyfile
+
 EXPOSE 80
