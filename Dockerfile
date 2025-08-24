@@ -14,6 +14,7 @@ COPY --from=scaffold /app/hello-react/ .
 
 # Remove the default src directory created by Vite
 RUN rm -rf src/
+
 # Copy over our source files
 COPY src/ ./src
 COPY index.html .
