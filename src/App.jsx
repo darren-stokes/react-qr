@@ -1,5 +1,5 @@
 import Footer from './Footer.jsx';
-import './App.css';
+import './style/App.css';
 
 export default function App() {
   return (
