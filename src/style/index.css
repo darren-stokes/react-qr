@@ -1,0 +1,18 @@
+body {
+    font-family: system-ui,Avenir,Helvetica,Arial,sans-serif;
+    font-synthesis: none;
+    font-weight: 400;
+    color: #ffffffde;
+    color-scheme: light dark;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
